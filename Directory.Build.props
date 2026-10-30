@@ -1,0 +1,25 @@
+<Project>
+    
+    <PropertyGroup>
+        <Version>1.28.8</Version>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Deterministic>true</Deterministic>
+        <Nullable>disable</Nullable>
+        <LangVersion>12</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <RepositoryUrl>https://github.com/henriknelson/GstSharpBundle</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Description>GStreamer C# bindings for .NET 8+ with the official GStreamer 1.28 runtime bundled as NuGet packages. Works with NativeAOT and trimming, and needs no GStreamer install.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+</Project>

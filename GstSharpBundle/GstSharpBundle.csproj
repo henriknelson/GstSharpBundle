@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <PackageId>Nelshh.GstSharpBundle</PackageId>
+        <PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
     </PropertyGroup>
 
     <PropertyGroup>

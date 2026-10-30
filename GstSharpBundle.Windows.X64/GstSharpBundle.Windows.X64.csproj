@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <PackageId>Nelshh.GstSharpBundle.Windows.X64</PackageId>
+        <!-- Mostly LGPL, but the bundled runtime also contains GPL plugins and libraries (x264, x265, dvdread, a52dec). -->
+        <PackageLicenseExpression>LGPL-2.1-or-later AND GPL-2.0-or-later</PackageLicenseExpression>
         <RootNamespace>GstSharpBundle.Windows64</RootNamespace>
         <ContentTargetFolders>contentFiles</ContentTargetFolders>
         <NoWarn>$(NoWarn);NU5100</NoWarn>

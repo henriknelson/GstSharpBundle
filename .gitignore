@@ -5,3 +5,4 @@ obj
 packages
 # The GStreamer runtime has its own bin folder; it must be committed.
 !/GstSharpBundle.Windows.X64/gstreamer/win-x64/bin/
+out
